@@ -65,6 +65,13 @@ Phen <- Phen[, -1]          ## remove the first variable
 ```
 
 ```{r Explore the data}
+
+###My histogram of Total Soluable Solids
+pp<-TOTAL.SOLUBLE.SOLIDS
+hist(pp)
+```
+
+```{r Explore the data}
 ###Get summary statistics
 phen_sum<-summary(Phen)
 

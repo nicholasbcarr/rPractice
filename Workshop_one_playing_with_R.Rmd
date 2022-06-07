@@ -22,7 +22,7 @@ library(tidyverse)
 library(lubridate)
 library(devtools)
 library(ggplot2)
-library(moranfast)
+#library(moranfast)
 library(latticeExtra)
 library(RColorBrewer)
 library(spdep)
@@ -67,8 +67,8 @@ Phen <- Phen[, -1]          ## remove the first variable
 ```{r Explore the data}
 
 ###My histogram of Total Soluable Solids
-pp<-TOTAL.SOLUBLE.SOLIDS
-hist(pp)
+pp<-Phen$TOTAL.SOLUBLE.SOLIDS
+hist(Phen$TOTAL.SOLUBLE.SOLIDS, col = "green")
 ```
 
 ```{r Explore the data}

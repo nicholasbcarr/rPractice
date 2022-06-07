@@ -9,8 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r Set WD and read in data, include = FALSE}
 
-#set your working directory
-setwd("/Users/mikey/Downloads")
+#set directory for practice 1 (Papaya)
+setwd("C:/Users/nickc/Desktop/Github/nickc/rPractice")
 
 #Load your libraries
 library(readxl)
@@ -23,7 +23,6 @@ library(lubridate)
 library(devtools)
 library(ggplot2)
 library(moranfast)
-library(rspatial)
 library(latticeExtra)
 library(RColorBrewer)
 library(spdep)
@@ -34,7 +33,6 @@ library(ggpubr)
 library(ggrepel)
 library(sf)
 library(rnaturalearth)
-library(rnaturalearthhires)
 
 ```
 This data represents the papaya germplasm collection in Hilo. The data can be used to classify or organize the different germplasm. 
